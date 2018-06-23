@@ -14,7 +14,7 @@
 </head>
 <body id="top">
 
-<div class="container" style="margin-top: 10px;">
+<div class="container" style="margin: 10px;">
     <div class="columns">
         <div class="column is-offset-2-tablet is-8-tablet">
             <div class="section has-text-centered notification is-warning">
@@ -25,13 +25,53 @@
                     Like→Java Scala PHP Js ....<br/>
                 </h1>
             </div>
-            <div class="tile ">
-
+            <div class="tile is-ancestor">
+                <div class="tile is-4 is-parent">
+                    <div class="tile is-child notification is-info">
+                        <h4><strong>README</strong></h4>
+                        <article>
+                            GitHub用の自己紹介ページみたいなものです
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-vertical">
+                        <div class="tile">
+                            <div class="tile is-parent">
+                                <a class="tile is-child is-half box notification is-success has-text-centered"
+                                   href="https://lmimsra.github.io/VueSample/">
+                                    <p>Vue.js Sample</p>
+                                </a>
+                            </div>
+                            <div class="tile is-parent">
+                                <a class="tile is-child box notification is-success has-text-centered"
+                                   href="https://github.com/lmimsra/VueSample">
+                                    <p>Vue.js Sample Code</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <a class="tile is-child box" href="https://github.com/lmimsra/lmimsra.github.io">
+                                <p>このページのソース</p>
+                                <article>
+                                    今後使う可能性があったのでbulmaでスタイリングしてありますよ〜
+                                </article>
+                            </a>
+                        </div>
+                </div>
             </div>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <div class="tile is-child box has-text-centered">
+                        もっとタイルを増やしたい......
+                    </div>
+                </div>
+            </div>
+
             <!-- Footer -->
-            <div class="section notification is-info">
+            <div class="section notification is-primary">
                 <footer id="footer">
                     <div class="has-text-centered">
+                        <p class="title">Link</p>
                         <a href="https://twitter.com/notaoi07929" class="button"><i class="fab fa-twitter"></i>　Twitter</a>
                         <a href="https://github.com/lmimsra" class="button"><i class="fab fa-github"></i>　Github</a>
                         <a href="https://www.lmimsra.com/" class="button"><i class="fas fa-edit"></i>　Home</a>
